@@ -1,0 +1,102 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "datatables.net-responsive-bs",
+        "scope": null,
+        "escapedName": "datatables.net-responsive-bs",
+        "name": "datatables.net-responsive-bs",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\papandey\\source\\repos\\employee-app-ui-angularjs"
+    ]
+  ],
+  "_from": "datatables.net-responsive-bs@latest",
+  "_id": "datatables.net-responsive-bs@2.2.3",
+  "_inCache": true,
+  "_location": "/datatables.net-responsive-bs",
+  "_nodeVersion": "8.1.2",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/datatables.net-responsive-bs_2.2.3_1529683302441_0.3661270078736023"
+  },
+  "_npmUser": {
+    "name": "datatables",
+    "email": "npm@datatables.net"
+  },
+  "_npmVersion": "5.0.3",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "datatables.net-responsive-bs",
+    "scope": null,
+    "escapedName": "datatables.net-responsive-bs",
+    "name": "datatables.net-responsive-bs",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/datatables.net-responsive-bs/-/datatables.net-responsive-bs-2.2.3.tgz",
+  "_shasum": "6d3791a77a18af746d4ad520b7e7319f731be43c",
+  "_shrinkwrap": null,
+  "_spec": "datatables.net-responsive-bs",
+  "_where": "C:\\Users\\papandey\\source\\repos\\employee-app-ui-angularjs",
+  "author": {
+    "name": "SpryMedia Ltd",
+    "url": "http://datatables.net"
+  },
+  "bugs": {
+    "url": "https://datatables.net/forums"
+  },
+  "dependencies": {
+    "datatables.net-bs": "^1.10.15",
+    "datatables.net-responsive": "2.2.3",
+    "jquery": ">=1.7"
+  },
+  "description": "Responsive for DataTables with styling for [Bootstrap 3](http://getbootstrap.com/)",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-tQZiqqjXGlTiRBlBP3lON7ULThiMc0sLh4hT5xLaHRWBniaQkIMNhIzX9RRybWjOEQcHS7LA/ZiwE2S7rYqq9w==",
+    "shasum": "6d3791a77a18af746d4ad520b7e7319f731be43c",
+    "tarball": "https://registry.npmjs.org/datatables.net-responsive-bs/-/datatables.net-responsive-bs-2.2.3.tgz",
+    "fileCount": 7,
+    "unpackedSize": 16347,
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbLR1mCRA9TVsSAnZWagAA2QcP/j5KEyfIQRftPK8hEJmV\nxv0l6gznSGvYjk1FX7IprnpWgxA+wlPT0tud95GNbCm7lKPztmC10ipwJIvI\n2v642DFNdo7paqY8fnmmaq9GCJBPdBI1nqlVZ9rmJtYWfMQ3PsKqjHzFJj9x\nl27e24PaZ6wWQyWbrtGWryIInpu8IV+F8xJd3KtKQungYdLl4HjJ/yI2jiWx\nlL15RiEwZJ6LS5o6SFhpLzud4ucvK+ehIAveeQqgO/lMucq6vZeWjXS4W+EM\n/sN3mC74IlAAgiFb6feR77iEC3mvVK418cSvDDd/5Sqyf8GiwKNlRZDczb9s\nY5ygmWA+/HrvdG9k7DCDd7JAfoxcoKm22zqKRzz7XOfYCjB+Me2EQ4ynTDi2\nHaZyHWWnRptAZ9/7x5KPkbjMtpkWXJk99m+mxrnh+zAij9Obu3VZOsivN8XO\n2gZ3VY+QvmqlaST6r/ZK3GX9Edr1cSgsdBECobCN53xfz41+pXksak9Xqri2\nphMPmMAbhrDnK8wcqs2wo7qhYf732r6I7jUQL7mHLW5ekDuxmbldCsMntNHT\n4zuIfV44jRt1kAw3qm96W4B/K6Wdwl+hnUqevIrCsY3Y26qFHC07EZn5Heox\nQDtbVgE8RVAfRslDK6/Cw7ot57DIE6ZqFrb/ICAgcZmLJDMWwn4sL0liOJas\n3bIA\r\n=NFf4\r\n-----END PGP SIGNATURE-----\r\n"
+  },
+  "files": [
+    "css/**/*.css",
+    "js/**/*.js"
+  ],
+  "gitHead": "7fd130d313e72794dbbd3ad7d6777a1bdbda4a3b",
+  "homepage": "https://datatables.net",
+  "keywords": [
+    "responsive",
+    "DataTables",
+    "jQuery",
+    "table",
+    "Bootstrap"
+  ],
+  "license": "MIT",
+  "main": "js/responsive.bootstrap.js",
+  "maintainers": [
+    {
+      "name": "datatables",
+      "email": "npm@datatables.net"
+    }
+  ],
+  "name": "datatables.net-responsive-bs",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DataTables/Dist-DataTables-Responsive-Bootstrap.git"
+  },
+  "style": "css/responsive.bootstrap.css",
+  "version": "2.2.3"
+}

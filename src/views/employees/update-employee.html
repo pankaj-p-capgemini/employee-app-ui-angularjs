@@ -1,0 +1,37 @@
+<div class="panel panel-default">
+    <div class="panel-heading">
+        Update employee data
+    </div>
+    <div class="panel-body">
+        <form role="form" ng-submit="updateEmployee()">
+            <div class="form-group col-lg-6 has-warning">
+                <label class="control-label" for="inputWarning">Employee ID</label>
+                <input type="text" class="form-control" readonly ng-model="empID" placeholder="will be generated automatically">
+            </div>
+            <div class="form-group col-lg-6">
+                <label class="control-label" for="inputSuccess">Name</label>
+                <input type="text" ng-model="emp.name" required class="form-control" placeholder="enter employee name">
+            </div>
+            <div class="form-group col-lg-6">
+                <label class="control-label" for="inputError">Salary</label>
+                <div class="input-group">
+                    <span class="input-group-addon">
+                        <i class="fa fa-inr"></i>
+                    </span>
+                    <input type="number" ng-model="emp.salary" required class="form-control" value="empData.salary" placeholder="enter salary">
+                </div>
+            </div>
+            <div class="form-group col-lg-6">
+                <label class="control-label" for="inputSuccess">Department</label>
+                <select ng-model="emp.department" class="form-control" required ng-options="dept.value as dept.text for dept in departmentData"></select>
+            </div>
+            <div class="form-group col-lg-12 input-group">
+                <button type="submit" class="btn btn-success pull-right">Update</button>
+                <a type="submit" data-toggle="tooltip" data-placement="left" title="click to cancel/back to employees list" href="/src/#!/view-employee" class="btn btn-warning pull-right mr-2">Cancel</a>
+            </div>
+        </form>
+        <!-- /form -->
+    </div>
+    <!-- /.panel-body -->
+</div>
+<!-- /.panel -->

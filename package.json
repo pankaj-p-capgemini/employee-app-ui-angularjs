@@ -1,0 +1,30 @@
+{
+  "name": "employee-app-ui-angularjs",
+  "title": "Employee App - AngularJS",
+  "version": "1.7.2",
+  "homepage": "http://localhost:3000/employee-app-ui-angularjs",
+  "author": "Pankaj Pandey",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.7.2",
+    "angular-route": "^1.7.2",
+    "bootstrap": "~3.3.7",
+    "bootstrap-social": "~4.8.0",
+    "datatables": "~1.10.4",
+    "datatables-bootstrap3-plugin": "^0.5.0",
+    "datatables.net-bs": "^1.10.19",
+    "datatables.net-responsive-bs": "^2.2.3",
+    "font-awesome": "~4.6.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.6",
+    "gulp": "^3.9.1",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean-css": "^2.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-header": "^1.8.12",
+    "gulp-less": "^3.5.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^1.5.4"
+  }
+}

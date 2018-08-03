@@ -1,0 +1,36 @@
+<!-- .panel-body -->
+<div class="panel panel-default">
+    <div class="panel-heading">
+        List of employees
+        <a type="button" style="margin-top: -5px" href="/src/#!/add-employee" class="btn btn-info btn-circle pull-right" data-toggle="tooltip"
+            data-placement="top" title="Add new employee">
+            <i class="fa fa-plus"></i>
+        </a>
+    </div>
+    <!-- /.panel-heading -->
+    <div class="panel-body table-responsive">
+        <table width="100%" class="table table-striped table-bordered table-hover" id="emp-list-tbl">
+            <thead>
+                <tr>
+                    <th>Emp ID</th>
+                    <th>Name</th>
+                    <th>Salary</th>
+                    <th>Department</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="odd gradeX" ng-repeat="emp in employees">
+                    <td>{{ emp.id }}</td>
+                    <td>{{ emp.name }}</td>
+                    <td>{{ emp.salary }}</td>
+                    <td class="center">{{ emp.department }}</td>
+                    <td class="center"></td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- /.table-responsive -->
+    </div>
+    <!-- /.panel-body -->
+</div>
+<!-- /.panel -->
